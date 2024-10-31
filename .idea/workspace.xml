@@ -38,6 +38,11 @@
     "onboarding.tips.debug.path": "C:/Users/MASTER/IdeaProjects/Curso/Projeto_2/src/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chess.pieces" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
@@ -63,5 +68,24 @@
       <updated>1730393252254</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Application/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="args" />
+        <watch expression="chessMatch.board.columns" />
+        <watch expression="chessMatch.board.columns" />
+        <watch expression="pieces[i][j]" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
