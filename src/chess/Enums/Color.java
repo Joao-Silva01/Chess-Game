@@ -1,4 +1,4 @@
-package chess;
+package chess.Enums;
 
 public enum Color {
     BLACK,

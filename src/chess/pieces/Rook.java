@@ -2,7 +2,7 @@ package chess.pieces;
 
 import boardGame.Board;
 import chess.ChessPiece;
-import chess.Color;
+import chess.Enums.Color;
 
 public class Rook extends ChessPiece {
 
