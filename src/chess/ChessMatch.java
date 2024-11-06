@@ -5,10 +5,7 @@ import boardGame.Piece;
 import boardGame.Position;
 import chess.Enums.Color;
 import chess.Exceptions.ChessException;
-import chess.pieces.Bishop;
-import chess.pieces.King;
-import chess.pieces.Peon;
-import chess.pieces.Rook;
+import chess.pieces.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -199,9 +196,10 @@ public class ChessMatch {
         placeNewPiece('a', 8, new King(board, Color.BLACK));
 
 
-        placeNewPiece('g', 7, new Peon(board, Color.BLACK));
+        placeNewPiece('g', 6, new Peon(board, Color.BLACK));
+        placeNewPiece('c', 6, new Peon(board, Color.WHITE));
 
-        placeNewPiece('e', 5, new Bishop(board, Color.WHITE));
+        placeNewPiece('e', 5, new Knight(board, Color.WHITE));
 
 
     }
