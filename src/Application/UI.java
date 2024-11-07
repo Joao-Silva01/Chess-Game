@@ -91,7 +91,7 @@ public class UI {
 
     private static void printPiece(ChessPiece piece, boolean backGround) {
         if (backGround) {
-            System.out.print(ANSI_BLUE_BACKGROUND);
+            System.out.print(ANSI_WHITE_BACKGROUND);
         }
         if (piece == null) {
             System.out.print("-" + ANSI_RESET);
@@ -99,7 +99,7 @@ public class UI {
             if (piece.getColor() == Color.WHITE) {
                 System.out.print(ANSI_WHITE + piece + ANSI_RESET);
             } else {
-                System.out.print(ANSI_CYAN + piece + ANSI_RESET);
+                System.out.print(ANSI_PURPLE + piece + ANSI_RESET);
             }
         }
         System.out.print(" ");
@@ -114,7 +114,7 @@ public class UI {
         System.out.println(Arrays.toString(white.toArray()));
         System.out.print(ANSI_RESET);
         System.out.print("Black: ");
-        System.out.print(ANSI_CYAN);
+        System.out.print(ANSI_PURPLE);
         System.out.println(Arrays.toString(black.toArray()));
         System.out.print(ANSI_RESET);
     }
